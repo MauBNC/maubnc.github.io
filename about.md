@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bawaan
 title: About
 permalink: /about/
 ---

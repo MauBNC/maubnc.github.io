@@ -1,6 +1,7 @@
 title: MauBNC
 subtitle: Proyek BNC Gratis
 email: bnc@goez.my.id
+author: eggoez
 description: >- # this means to ignore newlines until "baseurl:"
   MauBNC adalah salah satu penyedia Bouncers Gratis yang menggunakan platform ZNC. MauBNC di dirikan oleh seorang user biasa yang sangat hobi dengan IRC, dan ini hanya untuk berbagi dengan Anda :).
 baseurl: "" # the subpath of your site, e.g. /blog
