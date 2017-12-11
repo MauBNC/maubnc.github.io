@@ -1,17 +1,16 @@
-title: Your awesome title
-email: your-email@example.com
+title: MauBNC
+subtitle: Proyek BNC Gratis
+email: bnc@goez.my.id
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  MauBNC adalah salah satu penyedia Bouncers Gratis yang menggunakan platform ZNC. MauBNC di dirikan oleh seorang user biasa yang sangat hobi dengan IRC, dan ini hanya untuk berbagi dengan Anda :).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: maubncga
+github_username:  maubnc
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
