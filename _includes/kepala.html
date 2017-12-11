@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="maubnc, freebnc, free, znc, gratis, freeznc">
-    <meta name="description" content="{{ page.description }} // {{ site.title }}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -24,7 +24,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/fa-icon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/assets/fa-icon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/fa-icon/favicon-16x16.png">
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} // {{ site.subtitle }}</title>
 
      <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/yeti/bootstrap.min.css">
